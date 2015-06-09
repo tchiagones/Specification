@@ -1,0 +1,17 @@
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\AutoMapper.Net4.dll
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\DP.Core.Integration.Repository.dll.config
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\DP.Core.Integration.Repository.dll
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\DP.Core.Integration.Repository.pdb
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\AutoMapper.dll
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\DP.Core.Domain.dll
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\EntityFramework.dll
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\DP.Core.Domain.pdb
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\AutoMapper.pdb
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\AutoMapper.xml
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\AutoMapper.Net4.pdb
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\EntityFramework.xml
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\obj\Debug\DP.Core.Integration.Repository.csprojResolveAssemblyReference.cache
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\obj\Debug\DP.Core.Integration.Repository.dll
+C:\Projetos\DP.Core\DP.Core.Integration.Repository\obj\Debug\DP.Core.Integration.Repository.pdb

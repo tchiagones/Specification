@@ -1,0 +1,9 @@
+C:\Projetos\DP.Core\DP.Core.Service\bin\Debug\DP.Core.Service.dll
+C:\Projetos\DP.Core\DP.Core.Service\bin\Debug\DP.Core.Service.pdb
+C:\Projetos\DP.Core\DP.Core.Service\bin\Debug\DP.Core.Domain.dll
+C:\Projetos\DP.Core\DP.Core.Service\bin\Debug\EntityFramework.dll
+C:\Projetos\DP.Core\DP.Core.Service\bin\Debug\DP.Core.Domain.pdb
+C:\Projetos\DP.Core\DP.Core.Service\bin\Debug\EntityFramework.xml
+C:\Projetos\DP.Core\DP.Core.Service\obj\Debug\DP.Core.Service.csprojResolveAssemblyReference.cache
+C:\Projetos\DP.Core\DP.Core.Service\obj\Debug\DP.Core.Service.dll
+C:\Projetos\DP.Core\DP.Core.Service\obj\Debug\DP.Core.Service.pdb

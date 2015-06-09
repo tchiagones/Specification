@@ -1,0 +1,5 @@
+C:\Projetos\DP.Core\DP.Core.Integration.ServiceAgent\bin\Debug\DP.Core.Integration.ServiceAgent.dll
+C:\Projetos\DP.Core\DP.Core.Integration.ServiceAgent\bin\Debug\DP.Core.Integration.ServiceAgent.pdb
+C:\Projetos\DP.Core\DP.Core.Integration.ServiceAgent\obj\Debug\DP.Core.Integration.ServiceAgent.dll
+C:\Projetos\DP.Core\DP.Core.Integration.ServiceAgent\obj\Debug\DP.Core.Integration.ServiceAgent.pdb
+C:\Projetos\DP.Core\DP.Core.Integration.ServiceAgent\obj\Debug\DP.Core.Integration.ServiceAgent.csprojResolveAssemblyReference.cache

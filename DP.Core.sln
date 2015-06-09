@@ -1,0 +1,141 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Core.Integration.Repository", "DP.Core.Integration.Repository\DP.Core.Integration.Repository.csproj", "{2817788E-6684-410F-9EF6-E435C0CC770A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Core.Domain", "DP.Core.Domain\DP.Core.Domain.csproj", "{F7B540E8-BD0C-4ABD-ADE6-21FEAD22C328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Core.Integration.ServiceAgent", "DP.Core.Integration.ServiceAgent\DP.Core.Integration.ServiceAgent.csproj", "{6BD43418-8BCE-433F-AEB2-F215C8B60B0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1.2 - Integração", "1.1.2 - Integração", "{BEB7FAE5-87F5-4E1C-8E3B-FB61CB9F9B10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Arquitetura", "0 - Arquitetura", "{E09F4F32-7CFC-4BB6-A821-94A05A34EFA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Desenvolvimento", "1 - Desenvolvimento", "{00083035-A2DF-47F6-9656-02572661B738}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Qualidade", "2 - Qualidade", "{2A0038B8-F22B-4C4D-A5DE-30AD0211CEE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 -Camadas", "1.1 -Camadas", "{204B825B-D41D-41B3-B3AA-65E1A8BF8825}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Diagramas", "1.2 - Diagramas", "{7DCD7DF5-4F0B-4DC5-84BC-57A8FF9C38E2}"
+	ProjectSection(SolutionItems) = preProject
+		DP.Core.Domain\EntityDiagram.cd = DP.Core.Domain\EntityDiagram.cd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1.1 - Apresentação", "1.1.1 - Apresentação", "{E2015321-1F43-4C20-9783-16898D78A4EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1.3 - Domínio", "1.1.3 - Domínio", "{6D9FDE2C-BBE6-48F5-95C9-307A372C8E1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1.4 - Serviços Destribuídos", "1.1.4 - Serviços Destribuídos", "{1A2C3663-BB0A-4347-B857-A7F7399CE63E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - Testes Unitários", "2.1 - Testes Unitários", "{86A1BFD1-0C78-4091-986D-BA895621C8BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - Testes de Carga", "2.2 - Testes de Carga", "{81AAC6ED-6A3B-4B4A-B97F-5EE24A361F4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.1 - Diagrama de Dependência", "0.1 - Diagrama de Dependência", "{5DC4C5E6-89DA-4D3D-A81A-E5FB488B051F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Core.WCF", "DP.Core.WCF\DP.Core.WCF.csproj", "{FA8C46C3-9FC7-4D5B-B9B6-EDB896631671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Core.Service", "DP.Core.Service\DP.Core.Service.csproj", "{AEA63A85-F0BD-4D59-9F1D-FB9526DF3304}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.2 - Dependência", "0.2 - Dependência", "{CEFB91DF-768C-414B-A0FC-1BC883E56E20}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\DP.Framework\Assemblies\DP.Framework.Application.dll = ..\..\DP.Framework\Assemblies\DP.Framework.Application.dll
+		..\..\DP.Framework\Assemblies\DP.Framework.Domain.dll = ..\..\DP.Framework\Assemblies\DP.Framework.Domain.dll
+		..\..\DP.Framework\Assemblies\DP.Framework.Factory.dll = ..\..\DP.Framework\Assemblies\DP.Framework.Factory.dll
+		..\..\DP.Framework\Assemblies\DP.Framework.Integration.dll = ..\..\DP.Framework\Assemblies\DP.Framework.Integration.dll
+		..\..\DP.Framework\Assemblies\DP.Framework.Resources.dll = ..\..\DP.Framework\Assemblies\DP.Framework.Resources.dll
+		..\..\DP.Framework\Assemblies\DP.Framework.Utils.dll = ..\..\DP.Framework\Assemblies\DP.Framework.Utils.dll
+		..\..\DP.Framework\Assemblies\DP.Framework.Utils.Excel.dll = ..\..\DP.Framework\Assemblies\DP.Framework.Utils.Excel.dll
+		..\..\DP.Framework\Assemblies\DP.Framework.Utils.ImageMagick.dll = ..\..\DP.Framework\Assemblies\DP.Framework.Utils.ImageMagick.dll
+		..\..\DP.Framework\Assemblies\DP.Web.Framework.Helpers.dll = ..\..\DP.Framework\Assemblies\DP.Web.Framework.Helpers.dll
+		..\..\DP.Framework\Assemblies\DP.Web.Framework.Integration.dll = ..\..\DP.Framework\Assemblies\DP.Web.Framework.Integration.dll
+		..\..\DP.Framework\Assemblies\DP.Web.Framework.Presentation.dll = ..\..\DP.Framework\Assemblies\DP.Web.Framework.Presentation.dll
+		..\..\DP.Framework\Assemblies\DP.Web.Framework.Security.dll = ..\..\DP.Framework\Assemblies\DP.Web.Framework.Security.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Core.UnitTest", "DP.Core.UnitTest\DP.Core.UnitTest.csproj", "{3E51CCB6-578F-4BC5-B2C7-49E7D56C536B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.254.16:8080/tfs/defaultcollection2012
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DP.Core.Integration.Repository\\DP.Core.Integration.Repository.csproj
+		SccProjectTopLevelParentUniqueName1 = DP.Core.sln
+		SccProjectName1 = DP.Core.Integration.Repository
+		SccLocalPath1 = DP.Core.Integration.Repository
+		SccProjectUniqueName2 = DP.Core.Domain\\DP.Core.Domain.csproj
+		SccProjectTopLevelParentUniqueName2 = DP.Core.sln
+		SccProjectName2 = DP.Core.Domain
+		SccLocalPath2 = DP.Core.Domain
+		SccProjectUniqueName3 = DP.Core.Integration.ServiceAgent\\DP.Core.Integration.ServiceAgent.csproj
+		SccProjectTopLevelParentUniqueName3 = DP.Core.sln
+		SccProjectName3 = DP.Core.Integration.ServiceAgent
+		SccLocalPath3 = DP.Core.Integration.ServiceAgent
+		SccProjectUniqueName4 = DP.Core.WCF\\DP.Core.WCF.csproj
+		SccProjectTopLevelParentUniqueName4 = DP.Core.sln
+		SccProjectName4 = DP.Core.WCF
+		SccLocalPath4 = DP.Core.WCF
+		SccProjectUniqueName5 = DP.Core.Service\\DP.Core.Service.csproj
+		SccProjectTopLevelParentUniqueName5 = DP.Core.sln
+		SccProjectName5 = DP.Core.Service
+		SccLocalPath5 = DP.Core.Service
+		SccProjectUniqueName6 = DP.Core.UnitTest\\DP.Core.UnitTest.csproj
+		SccProjectTopLevelParentUniqueName6 = DP.Core.sln
+		SccProjectName6 = DP.Core.UnitTest
+		SccLocalPath6 = DP.Core.UnitTest
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2817788E-6684-410F-9EF6-E435C0CC770A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2817788E-6684-410F-9EF6-E435C0CC770A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2817788E-6684-410F-9EF6-E435C0CC770A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2817788E-6684-410F-9EF6-E435C0CC770A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B540E8-BD0C-4ABD-ADE6-21FEAD22C328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B540E8-BD0C-4ABD-ADE6-21FEAD22C328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B540E8-BD0C-4ABD-ADE6-21FEAD22C328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B540E8-BD0C-4ABD-ADE6-21FEAD22C328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD43418-8BCE-433F-AEB2-F215C8B60B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD43418-8BCE-433F-AEB2-F215C8B60B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD43418-8BCE-433F-AEB2-F215C8B60B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD43418-8BCE-433F-AEB2-F215C8B60B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8C46C3-9FC7-4D5B-B9B6-EDB896631671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8C46C3-9FC7-4D5B-B9B6-EDB896631671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8C46C3-9FC7-4D5B-B9B6-EDB896631671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8C46C3-9FC7-4D5B-B9B6-EDB896631671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA63A85-F0BD-4D59-9F1D-FB9526DF3304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA63A85-F0BD-4D59-9F1D-FB9526DF3304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA63A85-F0BD-4D59-9F1D-FB9526DF3304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA63A85-F0BD-4D59-9F1D-FB9526DF3304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E51CCB6-578F-4BC5-B2C7-49E7D56C536B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E51CCB6-578F-4BC5-B2C7-49E7D56C536B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E51CCB6-578F-4BC5-B2C7-49E7D56C536B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E51CCB6-578F-4BC5-B2C7-49E7D56C536B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{204B825B-D41D-41B3-B3AA-65E1A8BF8825} = {00083035-A2DF-47F6-9656-02572661B738}
+		{7DCD7DF5-4F0B-4DC5-84BC-57A8FF9C38E2} = {00083035-A2DF-47F6-9656-02572661B738}
+		{BEB7FAE5-87F5-4E1C-8E3B-FB61CB9F9B10} = {204B825B-D41D-41B3-B3AA-65E1A8BF8825}
+		{6D9FDE2C-BBE6-48F5-95C9-307A372C8E1F} = {204B825B-D41D-41B3-B3AA-65E1A8BF8825}
+		{E2015321-1F43-4C20-9783-16898D78A4EB} = {204B825B-D41D-41B3-B3AA-65E1A8BF8825}
+		{1A2C3663-BB0A-4347-B857-A7F7399CE63E} = {204B825B-D41D-41B3-B3AA-65E1A8BF8825}
+		{6BD43418-8BCE-433F-AEB2-F215C8B60B0E} = {BEB7FAE5-87F5-4E1C-8E3B-FB61CB9F9B10}
+		{2817788E-6684-410F-9EF6-E435C0CC770A} = {BEB7FAE5-87F5-4E1C-8E3B-FB61CB9F9B10}
+		{5DC4C5E6-89DA-4D3D-A81A-E5FB488B051F} = {E09F4F32-7CFC-4BB6-A821-94A05A34EFA8}
+		{CEFB91DF-768C-414B-A0FC-1BC883E56E20} = {E09F4F32-7CFC-4BB6-A821-94A05A34EFA8}
+		{86A1BFD1-0C78-4091-986D-BA895621C8BF} = {2A0038B8-F22B-4C4D-A5DE-30AD0211CEE2}
+		{81AAC6ED-6A3B-4B4A-B97F-5EE24A361F4A} = {2A0038B8-F22B-4C4D-A5DE-30AD0211CEE2}
+		{F7B540E8-BD0C-4ABD-ADE6-21FEAD22C328} = {6D9FDE2C-BBE6-48F5-95C9-307A372C8E1F}
+		{AEA63A85-F0BD-4D59-9F1D-FB9526DF3304} = {6D9FDE2C-BBE6-48F5-95C9-307A372C8E1F}
+		{FA8C46C3-9FC7-4D5B-B9B6-EDB896631671} = {1A2C3663-BB0A-4347-B857-A7F7399CE63E}
+		{3E51CCB6-578F-4BC5-B2C7-49E7D56C536B} = {86A1BFD1-0C78-4091-986D-BA895621C8BF}
+	EndGlobalSection
+EndGlobal

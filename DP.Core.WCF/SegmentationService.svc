@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="DP.Core.WCF.SegmentationService" CodeBehind="SegmentationService.svc.cs" %>

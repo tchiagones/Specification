@@ -1,0 +1,9 @@
+C:\Projetos\DP.Core\DP.Core.Domain\bin\Debug\DP.Core.Domain.dll.config
+C:\Projetos\DP.Core\DP.Core.Domain\bin\Debug\DP.Core.Domain.dll
+C:\Projetos\DP.Core\DP.Core.Domain\bin\Debug\DP.Core.Domain.pdb
+C:\Projetos\DP.Core\DP.Core.Domain\bin\Debug\EntityFramework.dll
+C:\Projetos\DP.Core\DP.Core.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\DP.Core\DP.Core.Domain\bin\Debug\EntityFramework.xml
+C:\Projetos\DP.Core\DP.Core.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\DP.Core\DP.Core.Domain\obj\Debug\DP.Core.Domain.dll
+C:\Projetos\DP.Core\DP.Core.Domain\obj\Debug\DP.Core.Domain.pdb

@@ -1,0 +1,4 @@
+C:\Projetos\DP.Core\DP.Core.Integration\bin\Debug\DP.Core.Integration.dll
+C:\Projetos\DP.Core\DP.Core.Integration\bin\Debug\DP.Core.Integration.pdb
+C:\Projetos\DP.Core\DP.Core.Integration\obj\Debug\DP.Core.Integration.dll
+C:\Projetos\DP.Core\DP.Core.Integration\obj\Debug\DP.Core.Integration.pdb

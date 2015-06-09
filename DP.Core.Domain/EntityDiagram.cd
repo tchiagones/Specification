@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DP.Core.Domain.Entity.Base" Collapsed="true">
+    <Position X="1" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Entity\Base.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Service" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Fields" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.Client" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Entity\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.CommunicationType" Collapsed="true">
+    <Position X="9.25" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\CommunicationType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.Criterion" Collapsed="true">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAQAAAACQAAAAAAAAAAAgAQ=</HashCode>
+      <FileName>Entity\Criterion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Service" />
+      <Property Name="Client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.DestinationSegment" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\DestinationSegment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Segments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.DPSpecification" Collapsed="true">
+    <Position X="4" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEAAAAAAAAAAAAAAAAAgAAAEAAAAAAgAAAAI=</HashCode>
+      <FileName>Entity\DPSpecification.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Criterion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.EntityType" Collapsed="true">
+    <Position X="6.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\EntityType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.Expression" Collapsed="true">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAEABAAAAAAAAAAAAgAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\Expression.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ValueCriterion" />
+      <Property Name="Specification" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.Field" Collapsed="true">
+    <Position X="1" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\Field.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.Segment" Collapsed="true">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAACAAA=</HashCode>
+      <FileName>Entity\Segment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.SegmentMapper" Collapsed="true">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEEAAAAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Entity\SegmentMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.Service" Collapsed="true">
+    <Position X="4.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Entity\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.SourceSegment" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAQAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\SourceSegment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SegmentMapper" />
+      <Property Name="Segment" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.ValueCriterion" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABAAAAAAAAAAAAAQAAAAAAAgAAEAAAA=</HashCode>
+      <FileName>Entity\ValueCriterion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP.Core.Domain.Entity.ValueCompare" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAgAAAAAAI=</HashCode>
+      <FileName>Entity\ValueCompare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP.Core.Domain.Factory.ExpressionFactory" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\ExpressionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP.Core.Domain.Factory.SegmentFactory&lt;T&gt;" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\SegmentFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DP.Core.Domain.Factory.SpecificationFactory" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\SpecificationFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DP.Core.Domain.Interface.Service.ISegmentService&lt;T&gt;" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAEAAAAEQAAAAAAAAAAAAAAAgAAAAAAE=</HashCode>
+      <FileName>Interface\Service\ISegmentService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DP.Core.Domain.Enum.DPSpecificationType" Collapsed="true">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Enum\DPSpecificationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DP.Core.Domain.Enum.OperatorArithmetic" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAAAAAAAQAAAAgAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Enum\OperatorArithmetic.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DP.Core.Domain.Enum.OperatorLogical" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Enum\OperatorLogical.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

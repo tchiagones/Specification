@@ -1,0 +1,10 @@
+C:\Projetos\DP.Core\DP.Core.WCF\bin\AutoMapper.Net4.dll
+C:\Projetos\DP.Core\DP.Core.WCF\bin\DP.Core.WCF.dll
+C:\Projetos\DP.Core\DP.Core.WCF\bin\DP.Core.WCF.pdb
+C:\Projetos\DP.Core\DP.Core.WCF\bin\AutoMapper.dll
+C:\Projetos\DP.Core\DP.Core.WCF\bin\AutoMapper.pdb
+C:\Projetos\DP.Core\DP.Core.WCF\bin\AutoMapper.xml
+C:\Projetos\DP.Core\DP.Core.WCF\bin\AutoMapper.Net4.pdb
+C:\Projetos\DP.Core\DP.Core.WCF\obj\Debug\DP.Core.WCF.csprojResolveAssemblyReference.cache
+C:\Projetos\DP.Core\DP.Core.WCF\obj\Debug\DP.Core.WCF.dll
+C:\Projetos\DP.Core\DP.Core.WCF\obj\Debug\DP.Core.WCF.pdb
